@@ -1,0 +1,97 @@
+body {
+    margin: 0;                /* Remove a margem padrão */
+    padding: 0;               /* Remove o padding padrão */
+    background: #2e2c2c;       /* Define a cor de fundo da página */
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Define a fonte padrão */
+    display: flex;            /* Ativa o Flexbox no body */
+    justify-content: center;  /* Centraliza horizontalmente os itens */
+    align-items: center;      /* Centraliza verticalmente os itens */
+    height: 100vh;            /* Define a altura igual à altura da viewport */
+  }
+  
+  /* Container do formulário de login */
+  .login-container {
+    background: #90e5ff;          /* Fundo branco para o container */
+    padding: 50px;                /* Espaçamento interno */
+    border-radius: 8px;           /* Arredonda os cantos do container */
+    box-shadow: 0 4px 6px rgba(146, 48, 48, 0.1); /* Aplica sombra para profundidade */
+    width: 620px;                 /* Largura fixa do container */
+    display: flex;                /* Ativa Flexbox para o container */
+    flex-direction: column;       /* Organiza os itens em coluna */
+    align-items: center;          /* Centraliza os itens horizontalmente */
+  }
+  
+  /* Estilização do título (h1) dentro do container de login */
+  .login-container h1 {
+    margin-bottom: 20px;         /* Espaço abaixo do título */
+    color: #000000;              /* Define a cor do texto */
+  }
+  
+  /* Estilização do formulário */
+  form {
+    width: 80%;                 /* O formulário ocupa toda a largura do container */
+    display: flex;               /* Ativa Flexbox para organizar os elementos do formulário */
+    flex-direction: column;      /* Alinha os elementos verticalmente */
+  }
+  
+  /* Grupos de formulário para cada campo */
+  .form-group {
+    margin-bottom: 25px;         /* Espaço entre os grupos de formulário */
+    display: flex;               /* Ativa Flexbox para organizar label e input */
+    flex-direction: column;      /* Alinha label e input verticalmente */
+  }
+  
+  /* Estilização das labels dos grupos de formulário */
+  .form-group label {
+    margin-bottom: 10px;          /* Espaço entre o label e o input */
+    color: #555555;              /* Define a cor do texto do label */
+  }
+  
+  /* Estilização dos inputs dos grupos de formulário */
+  .form-group input {
+    padding: 8px;               /* Espaçamento interno do input */
+    border: 1px solid #dddddd;   /* Define a borda do input */
+    border-radius: 4px;          /* Arredonda os cantos do input */
+  }
+  
+  /* Estilização do bloco de "manter logado" */
+  .form-check {
+    margin-bottom: 50px;         /* Espaço abaixo do bloco */
+    display: flex;               /* Ativa Flexbox para alinhar checkbox e label */
+    align-items: center;         /* Alinha verticalmente os itens */
+  }
+  
+  /* Espaçamento entre o checkbox e o label */
+  .form-check input {
+    margin-right: 5px;          /* Espaço à direita do checkbox */
+  }
+  
+  /* Estilização do botão de login */
+  button {
+    padding: 25px;               /* Espaçamento interno do botão */
+    border: none;                /* Remove a borda padrão */
+    border-radius: 28px;          /* Arredonda os cantos do botão */
+    background: #61AFEF;         /* Define a cor de fundo do botão */
+    color: #ffffff;              /* Define a cor do texto do botão */
+    font-weight: bold;           /* Coloca o texto em negrito */
+    cursor: pointer;             /* Altera o cursor ao passar sobre o botão */
+    transition: background 0.102s ease; /* Transição suave para mudanças de fundo */
+  }
+  
+  /* Alteração da cor de fundo do botão ao passar o mouse */
+  button:hover {
+    background: #3b6792;         /* Nova cor de fundo quando o botão é hover */
+  }
+  
+  /* Estilização do parágrafo com link de cadastro */
+  .login-container p {
+    margin-top: 50px;            /* Espaço acima do parágrafo */
+    font-size: 1rem;           /* Define um tamanho menor para a fonte */
+    color: #777777;              /* Define a cor do texto */
+  }
+  
+  /* Estilização do link de cadastro */
+  .login-container a {
+    color: #ffffff;              /* Define a cor do link */
+    text-decoration: none;       /* Remove o sublinhado do link */
+  }
