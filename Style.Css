@@ -11,11 +11,12 @@ body {
   
   /* Container do formulário de login */
   .login-container {
-    background: #90e5ff;          /* Fundo branco para o container */
+    background: #4cf03d94;          /* Fundo branco para o container */
     padding: 50px;                /* Espaçamento interno */
     border-radius: 8px;           /* Arredonda os cantos do container */
     box-shadow: 0 4px 6px rgba(146, 48, 48, 0.1); /* Aplica sombra para profundidade */
-    width: 620px;                 /* Largura fixa do container */
+    width: 300px;  
+    height: 300px;               /* Largura fixa do container */
     display: flex;                /* Ativa Flexbox para o container */
     flex-direction: column;       /* Organiza os itens em coluna */
     align-items: center;          /* Centraliza os itens horizontalmente */
@@ -24,9 +25,29 @@ body {
   /* Estilização do título (h1) dentro do container de login */
   .login-container h1 {
     margin-bottom: 20px;         /* Espaço abaixo do título */
-    color: #000000;              /* Define a cor do texto */
+    color: #ffffff;              /* Define a cor do texto */
   }
-  
+  #Texto {
+    color: #ffffff; 
+    margin-bottom: 20px;
+    
+  }
+  #Rodape{
+    color: #ffffff; 
+    margin-bottom: 20px;
+    display: flex;                /* Ativa Flexbox para o container */
+    flex-direction: column;       /* Organiza os itens em coluna */
+    align-items:flex-end;
+  }
+  .Container{
+    background: #ffffff;
+    padding: 50px;  
+    width: 300px;
+    height: 300px;
+    display: flex;                /* Ativa Flexbox para o container */
+    flex-direction: column;       /* Organiza os itens em coluna */
+    align-items: right;      
+  }
   /* Estilização do formulário */
   form {
     width: 80%;                 /* O formulário ocupa toda a largura do container */
@@ -67,12 +88,22 @@ body {
   }
   
   /* Estilização do botão de login */
-  button {
-    padding: 25px;               /* Espaçamento interno do botão */
+  #Logar {
+    padding: 5px;               /* Espaçamento interno do botão */
     border: none;                /* Remove a borda padrão */
-    border-radius: 28px;          /* Arredonda os cantos do botão */
-    background: #61AFEF;         /* Define a cor de fundo do botão */
+    border-radius: 0px;          /* Arredonda os cantos do botão */
+    background: #15c905;         /* Define a cor de fundo do botão */
     color: #ffffff;              /* Define a cor do texto do botão */
+    font-weight: bold;           /* Coloca o texto em negrito */
+    cursor: pointer;             /* Altera o cursor ao passar sobre o botão */
+    transition: background 0.102s ease; /* Transição suave para mudanças de fundo */
+  }
+  #Cancelar{
+    padding: 5px;               /* Espaçamento interno do botão */
+    border: none;                /* Remove a borda padrão */
+    border-radius: 0px;          /* Arredonda os cantos do botão */
+    background: #ffffff;         /* Define a cor de fundo do botão */
+    color: #8d8d8d;              /* Define a cor do texto do botão */
     font-weight: bold;           /* Coloca o texto em negrito */
     cursor: pointer;             /* Altera o cursor ao passar sobre o botão */
     transition: background 0.102s ease; /* Transição suave para mudanças de fundo */
